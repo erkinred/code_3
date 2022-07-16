@@ -7,3 +7,14 @@ function firstTask() {
     }
     
 }
+
+//2
+function secondTask() {
+    for (let j = 20; j >= 10; j--){
+        if (j === 13){
+            break;
+        }
+        console.log(j);
+    }
+    
+}
