@@ -18,3 +18,15 @@ function secondTask() {
     }
     
 }
+
+//3
+function thirdTask() {
+    for (let k = 2; k <= 10; k++){
+        if (k % 2 === 1){
+            continue;
+        }else{
+           console.log(k); 
+        }
+    }
+    
+}
